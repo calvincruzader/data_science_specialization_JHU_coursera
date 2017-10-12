@@ -1,0 +1,70 @@
+course1_week3 
+
+Types of Data Science Questions 
+approximate order of difficulty:
+	descriptive 
+		first kind of data analysis performed 
+		descriptions cannot be generalized usually without additional statistical modeling 
+		example: US Census, google Ngram 
+	exploratory 
+		goal: find relationships you didn't know about 
+		models are good for discovering new connections 
+		useful for defining future studies 
+		exploratory analyses alone should not be used for generalizing/predicting 
+		example: brain scans that light up in response to a stimulus
+	inferential
+		goal: use a small amount of sample data to say something about a bigger population 
+		commmonly the goal of statistical models 
+		involves estimating both the quantity you care about and the uncertainty about your estimate 
+		inference depends heavily on both the population and the sampling scheme 
+		example: the effect of air pollution control and life expectency 
+	predictive 
+		goal: use data on some objects to predict values for another object 
+			if X predicts Y it does not mean that X causes Y 
+		accurate prediction depends heavily on measuring the right variables 
+		although there are better and worse prediction models, more data and a simple model usually work really well
+		prediction is very hard, especially about the future references 
+		example: predict what's gonna happen in the next election cycle 
+	causal
+		goal: to find out what happens to one variable when you make another variable change.
+		usually randomized studies are required to identify causation
+		there are approaches to inferring causation in non-randomized studies, but they are complicated and sensitive to assumptions 
+		causal relationships are usually identified as average effects, but may not apply to every individual
+		causal models are usually the 'gold standard' for data analysis
+		example: fecal infusion 
+	mechanistic 
+		goal: understand the exact changes in variables that lead to changes in other variables for individual objects 
+		incredibly hard to infer, except in simple situations
+		usually modeled by a deterministic set of equations
+		generally the random component of the data is a measurement error
+		if the equations are known but the parameters are not, they may be inferred with data analysis
+		
+-------------------------
+what is data?
+	data - values of qualitative or quantitative variables, belonging to a set of items 	
+		set of items - sometimes called the population, the set of objects you are interested in 
+		variables - measurements or characteristic of an object 
+		qualitative - not necessarily ordered and not necessarily measured 
+			country of origin, sex, treatment 
+		quantitative - measured on continuous scale 
+			height, weight, blood pressure
+	
+data is the second most important thing in data science 
+	the most important thing is the question 
+		
+----------
+experimental design
+	poor analysis is a no 
+	care about the analysis plan 
+
+formulate question in advance
+	
+statistical inference 
+	population > probability > sample > inferential statistics > population 
+	
+
+
+
+		
+		
+		

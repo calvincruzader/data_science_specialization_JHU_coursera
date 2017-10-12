@@ -1,0 +1,12 @@
+course week2 
+
+a <- available.packages() 
+head(rownames(a), 3)
+
+install.packages("slidify")
+
+install.packages(c("slidify", "ggplot2", "devtools")) 
+
+installing RTools 
+
+find.package("devtools")
